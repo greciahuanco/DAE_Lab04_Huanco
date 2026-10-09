@@ -1,0 +1,5 @@
+python manage.py shell -c from blog.models import Author, Profile, Category, Tag, Post, Comment; from news.models import Article; print({m.__name__: m.objects.count() for m in (Author, Profile, Category, Tag, Post, Comment, Article)})
+
+27 objects imported automatically (use -v 2 for details).
+
+{'Author': 4, 'Profile': 4, 'Category': 4, 'Tag': 5, 'Post': 15, 'Comment': 23, 'Article': 6}
