@@ -1,0 +1,7 @@
+python manage.py duel --question q5
+
+
+Duelo — respuestas de: team
+q5  ✔ correcta               1 consulta(s)   Los tres artículos publicados con más comentarios, y de cada
+
+1 de 1 correctas y baratas.

@@ -1,0 +1,7 @@
+python manage.py duel --question q8
+
+
+Duelo — respuestas de: team
+q8  ✔ correcta               1 consulta(s)   Los autores que nunca han publicado un artículo.
+
+1 de 1 correctas y baratas.

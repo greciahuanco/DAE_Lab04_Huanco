@@ -1,0 +1,7 @@
+python manage.py duel --question q6
+
+
+Duelo — respuestas de: team
+q6  ✔ correcta               1 consulta(s)   Los artículos escritos por autores de Perú (publicados o no)
+
+1 de 1 correctas y baratas.

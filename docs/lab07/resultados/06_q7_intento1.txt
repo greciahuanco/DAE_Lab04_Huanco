@@ -1,0 +1,7 @@
+python manage.py duel --question q7
+
+
+Duelo — respuestas de: team
+q7  ✔ correcta               1 consulta(s)   Los comentarios de los artículos de la categoría «Tecnología
+
+1 de 1 correctas y baratas.
