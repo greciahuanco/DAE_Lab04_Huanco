@@ -6,12 +6,14 @@ from .models import Article, Author, Category
 @admin.register(Author)
 class AuthorAdmin(admin.ModelAdmin):
     list_display = ("name",)
+    list_filter = ("name",)
     search_fields = ("name",)
 
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ("name",)
+    list_filter = ("name",)
     search_fields = ("name",)
 
 
