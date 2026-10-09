@@ -1,0 +1,5 @@
+python manage.py shell -c from blog.models import Comment; print("Comentarios articulo 5:", Comment.objects.filter(post_id=5).count()); assert not Comment.objects.filter(post_id=5).exists()
+
+27 objects imported automatically (use -v 2 for details).
+
+Comentarios articulo 5: 0

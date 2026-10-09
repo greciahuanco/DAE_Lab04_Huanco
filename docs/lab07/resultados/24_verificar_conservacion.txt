@@ -1,0 +1,5 @@
+python manage.py shell -c from blog.models import Comment; print("Comentarios conservados:", Comment.objects.filter(post_id=5).count()); assert Comment.objects.filter(post_id=5).count() == 2
+
+27 objects imported automatically (use -v 2 for details).
+
+Comentarios conservados: 2

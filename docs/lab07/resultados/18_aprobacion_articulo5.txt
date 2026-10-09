@@ -1,0 +1,20 @@
+python manage.py agent --intent {"action": "delete_comments_of_post", "args": {"post_id": 5}} --approve 6c175a4512ee
+
+{
+  "status": "applied",
+  "plan": {
+    "action": "delete_comments_of_post",
+    "args": {
+      "post_id": 5
+    },
+    "details": {
+      "affected_comment_ids": [
+        62
+      ]
+    },
+    "plan_hash": "6c175a4512ee"
+  },
+  "result": {
+    "deleted": 1
+  }
+}

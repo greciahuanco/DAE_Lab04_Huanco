@@ -1,0 +1,5 @@
+python manage.py shell -c from blog.models import Comment; Comment.objects.create(post_id=5, author_name="Lector de prueba", text="Comentario agregado después del plan"); print("Comentarios articulo 5:", Comment.objects.filter(post_id=5).count())
+
+27 objects imported automatically (use -v 2 for details).
+
+Comentarios articulo 5: 2

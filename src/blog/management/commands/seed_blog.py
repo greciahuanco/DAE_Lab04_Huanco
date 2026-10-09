@@ -22,8 +22,9 @@ class Command(BaseCommand):
         categories = {name: Category.objects.create(name=name) for name in seed_data.CATEGORIES}
         tags = {name: Tag.objects.create(name=name) for name in seed_data.TAGS}
 
-        for item in seed_data.POSTS:
+        for post_id, item in enumerate(seed_data.POSTS, start=1):
             post = Post.objects.create(
+                id=post_id,
                 title=item["title"],
                 body=f"Cuerpo de «{item['title']}».",
                 author=authors[item["author"]],
