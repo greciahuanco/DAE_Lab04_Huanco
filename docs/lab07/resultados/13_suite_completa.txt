@@ -22,4 +22,3 @@ Ran 24 tests in 0.206s
 
 FAILED (failures=1, skipped=2)
 Destroying test database for alias 'default'...
-

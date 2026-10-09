@@ -43,4 +43,3 @@ Ran 3 tests in 0.079s
 
 FAILED (failures=1, skipped=1)
 Destroying test database for alias 'default'...
-

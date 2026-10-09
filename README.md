@@ -37,3 +37,9 @@ Estos modelos permiten registrar géneros, personas relacionadas como directores
 Se implementó una vista pública que permite seleccionar una película y obtener recomendaciones de otras películas que pertenecen al mismo género.
 
 Las recomendaciones utilizan el promedio de las valoraciones registradas y se ordenan de mayor a menor valoración.
+
+
+## Laboratorio 07 ORM con IA
+
+Se continúa el proyecto con la aplicación blog del docente.
+La documentación, resultados e informe editable están en [docs/lab07](docs/lab07/README.md).
