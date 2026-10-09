@@ -1,0 +1,7 @@
+python manage.py duel --question q1
+
+
+Duelo — respuestas de: team
+q1  ✔ correcta               1 consulta(s)   Los artículos que ya están publicados.
+
+1 de 1 correctas y baratas.

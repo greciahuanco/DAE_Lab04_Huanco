@@ -1,0 +1,7 @@
+python manage.py duel --question q2
+
+
+Duelo — respuestas de: team
+q2  ✔ correcta               1 consulta(s)   Los artículos que no tienen categoría asignada.
+
+1 de 1 correctas y baratas.
