@@ -1,0 +1,12 @@
+python manage.py shell -c from blog.duel.runner import SOURCES, run_all; SOURCES["codex"] = "blog.duel.codex_answers"; verdicts = run_all("codex"); [print(v) for v in verdicts]; assert all(v.status == "ok" for v in verdicts)
+
+27 objects imported automatically (use -v 2 for details).
+
+Verdict(key='q1', status='ok', queries=1, detail='')
+Verdict(key='q2', status='ok', queries=1, detail='')
+Verdict(key='q3', status='ok', queries=1, detail='')
+Verdict(key='q4', status='ok', queries=1, detail='')
+Verdict(key='q5', status='ok', queries=1, detail='')
+Verdict(key='q6', status='ok', queries=1, detail='')
+Verdict(key='q7', status='ok', queries=1, detail='')
+Verdict(key='q8', status='ok', queries=1, detail='')
